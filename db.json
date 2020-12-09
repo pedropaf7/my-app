@@ -1,0 +1,159 @@
+{
+    "refeicoes": [
+        {
+            "id": 1,
+            "nome": "Feijão preto",
+            "caloria": 14.50,
+            "preco": 3.30,
+            "tipo": "Guarnição 1"
+        },
+        {
+            "id": 2,
+            "nome": "Arroz branco",
+            "caloria": 8.90,
+            "preco": 2.00,
+            "tipo": "Guarnição 2"
+        },
+        {
+            "id": 3,
+            "nome": "Arroz integral",
+            "caloria": 80.88,
+            "preco": 7,
+            "tipo": "Guarnição 3"
+        },
+        {
+            "id": 4,
+            "nome": "Creme de milho",
+            "caloria": 50.52,
+            "preco": 3,
+            "tipo": "Guarnição 4"
+        },
+        {
+            "id": 5,
+            "nome": "Omelete",
+            "caloria": 120.33,
+            "preco": 7,
+            "tipo": "Vegetariana 1"
+        },
+        {
+            "id": 6,
+            "nome": "Carne moída",
+            "caloria": 280,
+            "preco": 5.5,
+            "tipo": "Principal 1"
+         },
+         {
+            "id": 7,
+            "nome": "Churrasco misto",
+            "caloria": 450.68,
+            "preco": 9,
+            "tipo": "Principal 2"
+        },
+        {
+            "id": 8,
+            "nome": "Frango empanado",
+            "caloria": 678.58,
+            "preco": 7,
+            "tipo": "Principal 3"
+        },
+        {
+            "id": 9,
+            "nome": "Alface",
+            "caloria": 25,
+            "preco": 0.5,
+            "tipo": "Salada 1"
+        },
+        {
+            "id": 10,
+            "nome": "Tomate",
+            "caloria": 32,
+            "preco": 1,
+            "tipo": "Salada 2"
+        },
+        {
+            "id": 11,
+            "nome": "Pepino",
+            "caloria": 15,
+            "preco": 0.9,
+            "tipo": "Salada 3"
+        },
+        {
+            "id": 12,
+            "nome": "Couve",
+            "caloria": 12,
+            "preco": 0.9,
+            "tipo": "Salada 4"
+        },
+        {
+            "id": 13,
+            "nome": "Cenoura",
+            "caloria": 34,
+            "preco": 1,
+            "tipo": "Salada 5"
+        },
+        {
+            "id": 14,
+            "nome": "Suco de Acerola",
+            "caloria": 88.75,
+            "preco": 1.5,
+            "tipo": "Suco 1"
+        },
+        {
+            "id": 15,
+            "nome": "Suco de Laranja",
+            "caloria": 79.98,
+            "preco": 1.8,
+            "tipo": "Suco 2"
+        },
+        {
+            "id": 16,
+            "nome": "Brigadeirão",
+            "caloria": 210.45,
+            "preco": 4.6,
+            "tipo": "Sobremesa 1"
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nome": "Pedro",
+            "telefone": 22998788546,
+            "endereco": "Rua da Motinho, 422 - Turf Club",
+            "email": "pedro@gmail.com",
+            "refeicoes":["feijão", " arroz"]
+        },
+        {
+            "id": 2,
+            "nome": "Paulo",
+            "telefone": 22985874863,
+            "endereco": "Rua 2, 428 - Centro",
+            "email": "paulo@gmail.com",
+            "refeicoes":[]
+        },
+        {
+            "id": 3,
+            "nome": "Fernando",
+            "telefone": 2288745963,
+            "endereco": "Rua 5, 124 - Guarus",
+            "email": "fernando@gmail.com",
+            "refeicoes":[]
+        },
+        {
+            "id": 4,
+            "nome": "Jorge",
+            "telefone": 22928547139,
+            "endereco": "Rua 7, 55 - Imperial",
+            "email": "jorge@gmail.com",
+            "refeicoes":[]
+        },
+        {
+            "id": 5,
+            "nome": "Carlos",
+            "telefone": 2288745935,
+            "endereco": "Rua 12, 35 - Goytacazes",
+            "email": "carlos@gmail.com",
+            "refeicoes":[]
+        }
+    ]
+
+}

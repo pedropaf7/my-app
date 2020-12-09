@@ -1,58 +1,44 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
+    <v-app-bar app color="success" dark>
       <div class="d-flex align-center">
         <v-img
-          alt="Vuetify Logo"
+          alt="Restaurente Logo"
           class="shrink mr-2"
           contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+          src="https://i.ibb.co/30tLSTB/flux.png"
           transition="scale-transition"
-          width="40"
+          width="65"
         />
 
         <v-img
-          alt="Vuetify Name"
+          alt="Restaurante nome"
           class="shrink mt-1 hidden-sm-and-down"
           contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
+          min-width="180"
+          src="https://i.ibb.co/ZXhb2R9/restaurante.png"
+          width="180"
         />
       </div>
 
       <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <RefeicaoCrud />
+      <ClienteCrud />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
-
+import RefeicaoCrud from "./components/RefeicaoCrud";
+import ClienteCrud from "./components/ClienteCrud";
 export default {
-  name: 'App',
-
+  name: "App",
   components: {
-    HelloWorld,
+    RefeicaoCrud, ClienteCrud
   },
-
   data: () => ({
     //
   }),
