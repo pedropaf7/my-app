@@ -16,6 +16,7 @@ Pequena simulação de compra de refeições em um restaurante.
 - Biblioteca VuetifyJS para as views
 - Usada a biblioteca axios para as requisições http
 - JavaScript
+- Visual Studio Code
 
 <img src="https://user-images.githubusercontent.com/33420168/102003534-5a001980-3ce7-11eb-8926-b3d127ca9a95.PNG" width="75%" height="60%">
 <img src="https://user-images.githubusercontent.com/33420168/102003536-5e2c3700-3ce7-11eb-9980-f95b82a708a0.PNG" width="75%" height="60%">
