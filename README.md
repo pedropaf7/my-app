@@ -1,11 +1,11 @@
-# Lux Restaurante
+# Flux Restaurante
 Projeto elaborado para a disciplina de Programação Orientada a Objetos Aplicada do IFFluminense campus Campos Centro do curso Bacharelado em Sistemas de Informação.
 
 ### O que faz:  
 Pequena simulação de compra de refeições em um restaurante.
 
 ### Funcionalidades:
-- Adicionar/removoer refeições
+- Adicionar/remover refeições
 - Calcular total a pagar
 - CRUD das refeições e clientes
 
@@ -21,27 +21,6 @@ Pequena simulação de compra de refeições em um restaurante.
 <img src="ttps://user-images.githubusercontent.com/33420168/102003536-5e2c3700-3ce7-11eb-9980-f95b82a708a0.PNG" width="75%" height="60%">
 <img src="https://user-images.githubusercontent.com/33420168/102003537-5ff5fa80-3ce7-11eb-87ee-88b04a30f10b.PNG" width="75%" height="60%">
 <img src="https://user-images.githubusercontent.com/33420168/102003538-61bfbe00-3ce7-11eb-9bc1-4aa68d104069.PNG" width="75%" height="60%">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Project setup
