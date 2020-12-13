@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-app-bar app color="success" dark>
-      <div class="d-flex align-center">
+    <v-app-bar app color="success">
+      <router-link active-class="white--text" class="black--text" to="/" exact>
         <v-img
           alt="Restaurente Logo"
           class="shrink mr-2"
@@ -10,35 +10,55 @@
           transition="scale-transition"
           width="65"
         />
-
+      </router-link>
+      <router-link active-class="white--text" class="black--text" to="/" exact>
         <v-img
           alt="Restaurante nome"
           class="shrink mt-1 hidden-sm-and-down"
           contain
           min-width="180"
-          src="https://i.ibb.co/ZXhb2R9/restaurante.png"
+          src="https://i.ibb.co/QdfgFj4/restaurante2.png"
           width="180"
         />
-      </div>
-
+      </router-link>
+        <v-divider class="mx-4" inset vertical></v-divider>
+       <template>
+          <v-tabs color="white" >
+            <v-tab to="/" >
+              <router-link active-class="white--text" class="black--text" to="/" exact>Home</router-link>
+            </v-tab>
+            <v-divider class="mx-4" inset vertical></v-divider>
+            <v-tab to="/refeicoes">
+              <router-link active-class="white--text" class="black--text" to="/refeicoes" exact>Refeição Crud</router-link>
+            </v-tab>
+            <v-divider class="mx-4" inset vertical></v-divider>
+            <v-tab to="/clientes">
+              <router-link active-class="white--text" class="black--text" to="/clientes" exact>Cliente Crud</router-link>
+            </v-tab>
+            <v-divider class="mx-4" inset vertical></v-divider>
+            <v-tab to="/about">
+              <router-link active-class="white--text" class="black--text" to="/about" exact>About</router-link>
+            </v-tab>
+          </v-tabs>
+        </template>
       <v-spacer></v-spacer>
     </v-app-bar>
-
-    <v-main>
-      <RefeicaoCrud />
-      <ClienteCrud />
-    </v-main>
+  <router-view></router-view>
   </v-app>
 </template>
 
+<style scoped>
+  .v-tab:hover{
+    color: #CFD8DC;
+    background-color: #43A047;
+  }
+
+</style>
 <script>
-import RefeicaoCrud from "./components/RefeicaoCrud";
-import ClienteCrud from "./components/ClienteCrud";
+
 export default {
   name: "App",
-  components: {
-    RefeicaoCrud, ClienteCrud
-  },
+  components: {},
   data: () => ({
     //
   }),
