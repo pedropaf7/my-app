@@ -107,7 +107,7 @@
     {
       "id": 14,
       "nome": "Suco de Acerola",
-      "caloria": 88.75,
+      "caloria": 8.75,
       "preco": 1.5,
       "tipo": "Suco 1",
       "imagem": "https://i.ibb.co/XVx9mzb/acerola.png"
@@ -115,7 +115,7 @@
     {
       "id": 15,
       "nome": "Suco de Laranja",
-      "caloria": 79.98,
+      "caloria": 9.98,
       "preco": 1.8,
       "tipo": "Suco 2",
       "imagem": "https://i.ibb.co/x1kK7KX/laranja.jpg"
@@ -123,7 +123,7 @@
     {
       "id": 16,
       "nome": "Brigadeirão",
-      "caloria": 210.45,
+      "caloria": 110.45,
       "preco": 4.6,
       "tipo": "Sobremesa 1",
       "imagem": "https://i.ibb.co/DGzKr6H/Brigadeir-o.jpg"

@@ -32,25 +32,25 @@
                 <v-card-text>
                   <v-container>
                     <v-row>
-                      <v-col cols="12" sm="6" md="4">
+                      <v-col cols="12" sm="6" md="2">
                         <v-text-field
                           v-model="editedItem.id"
                           label="ID">
                         </v-text-field>
                       </v-col>
-                      <v-col cols="12" sm="6" md="4">
+                      <v-col cols="12" sm="6" md="6">
                         <v-text-field
                           v-model="editedItem.nome"
                           label="Refeição">
                         </v-text-field>
                       </v-col>
-                      <v-col cols="12" sm="6" md="4">
+                      <v-col cols="12" sm="6" md="3">
                         <v-text-field
                           v-model="editedItem.caloria"
                           label="Caloria (Kcal)">
                         </v-text-field>
                       </v-col>
-                      <v-col cols="12" sm="6" md="4">
+                      <v-col cols="12" sm="6" md="2">
                         <v-text-field
                           v-model="editedItem.preco"
                           label="Preço">
@@ -60,6 +60,12 @@
                         <v-text-field
                           v-model="editedItem.tipo"
                           label="Tipo">
+                        </v-text-field>
+                      </v-col>
+                      <v-col cols="12" sm="6" md="6">
+                        <v-text-field
+                          v-model="editedItem.imagem"
+                          label="Imagem">
                         </v-text-field>
                       </v-col>
                     </v-row>
@@ -102,6 +108,7 @@ export default {
       {text: "Caloria (Kcal)", value: "caloria"},
       {text: "Preço", value: "preco"},
       {text: "Tipo", value: "tipo"},
+      {text: "Imagem", value: "imagem"},
       {text: "Ações", value: "actions", sortable: false},
     ],
     refeicoes: [
@@ -109,7 +116,8 @@ export default {
         nome: "", 
         caloria: 2.5, 
         preco: 1.99, 
-        tipo: ""
+        tipo: "",
+        imagem: "",
       }
     ],
     editedIndex: -1,
@@ -119,6 +127,7 @@ export default {
       caloria: 0,
       preco: 0,
       tipo: "",
+      imagem: "",
     },
     defaultItem:{
       id: 0,
@@ -126,6 +135,7 @@ export default {
       caloria: 0,
       preco: 0,
       tipo: "",
+      imagem: "",
     },
   }),
   methods: {
